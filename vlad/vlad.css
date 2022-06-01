@@ -40,3 +40,13 @@ img {
     width:500px;
     height:500px;
 }
+
+.card  {
+    display: flex;
+    justify-content: center;
+}
+
+#motto {
+    display: flex;
+    justify-content: center;
+}
