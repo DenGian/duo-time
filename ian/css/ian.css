@@ -1,0 +1,49 @@
+body {
+  background-color: red;
+  font-family: "Comic Sans MS", serif;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.traits {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.spiritAnimal {
+  width: 30%;
+  height: 30%;
+}
+
+.spiritAnimalS {
+  text-align: right;
+}
+
+.sportP {
+  width: 30%;
+  height: 30%;
+}
+
+.fictional {
+  text-align: right;
+}
+
+.fictionalC {
+  width: 30%;
+  height: 30%;
+}
+
+/*# sourceMappingURL=ian.css.map */
