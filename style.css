@@ -3,9 +3,18 @@ body{
     display: flex;
     align-content: center;
     justify-content: center;
+    overflow: hidden;
 }
 p{
     text-align: center;
     text-decoration: none;
     color: white;
+    font-family: "Comic Sans MS", serif;
+}
+img{
+    max-width: 100%;
+}
+a:hover{
+    transform: scale(1.05);
+    transition: ease-in-out;
 }
