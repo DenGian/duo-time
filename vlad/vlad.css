@@ -50,3 +50,26 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.challange {
+    text-align:center;
+}
+
+.challangebox {
+    margin: auto;
+    border: solid 1px darkred;
+    background-color: white;
+    width: 60%;
+    height: 35vw;
+}
+
+.qrcode {
+    padding-top: 1.5vw;
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content:center;
+}
+
+.surprise {
+    text-align: center;
+}
