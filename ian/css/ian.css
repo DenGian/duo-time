@@ -46,4 +46,22 @@ a:visited {
   height: 30%;
 }
 
+.code {
+  width: 15%;
+  height: 15%;
+  float: right;
+}
+
+.challenge {
+  text-align: center;
+}
+
+.challengeBox {
+  height: 40vh;
+  border: solid 1px black;
+  background-color: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  margin: 3%;
+}
+
 /*# sourceMappingURL=ian.css.map */
