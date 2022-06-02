@@ -46,11 +46,11 @@ Of course, you might not be sure what you should fill in for this person, this i
 
 ## Nice-to-have features
 - [] As many fun facts you can think of!
-- [] SEO is good!
-- [] Semantically correct
+- [x] SEO is good!
+- [x] Semantically correct
 - [] CSS framework (bootstrap, tailwind, ...)
-- [] Link to your partners page
-- [] QR code linking to your / your partners page
+- [x] Link to your partners page
+- [x] QR code linking to your / your partners page
     - we can print these and hang them around the campus!
 
 ## GOOD LUCK!!!
