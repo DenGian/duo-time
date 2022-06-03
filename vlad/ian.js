@@ -8,6 +8,10 @@ for (let i=0, max = color.length-2; i<max; i++){
     document.getElementsByTagName('*')[i].style.backgroundColor = 'darkblue';
     document.getElementsByTagName('button')[0].style.backgroundColor = 'darkred'
 }
+for(let i=0;i<5;i++){
+    document.getElementsByClassName('card-title')[i].style.textAlign = 'center'
+    document.getElementsByClassName("card mb-3")[i].style.textAlign = 'center'
+}
 // first try
  /*   if(i !== 73){
         document.getElementsByTagName('*')[i].style.backgroundColor = 'darkblue';
@@ -45,13 +49,34 @@ document.getElementsByTagName('li')[2].style.fontFamily = 'Comic sans MS , serif
  // profile image
 document.getElementsByTagName('img')[0].src='resources/ian.jpg';
 
+// color
+let antwerp = document.createElement('p')
+antwerp.innerText = 'Rood en wit, de liefde volle kleuren'
+document.getElementsByClassName('col-md-4')[0].appendChild(antwerp)
+antwerp.style.backgroundColor= 'transparent'
+document.getElementsByTagName('img')[1].src='resources/color.png';
+
+// spirit animal
+let animal = document.createElement('p')
+animal.innerText = 'That much of a spirit animal that I am too lazy to write stuff'
+document.getElementsByClassName('col-md-4')[1].appendChild(animal)
+animal.style.backgroundColor= 'transparent'
+
 // sport
 document.getElementsByTagName('h5')[2].innerText = 'Football';
 document.getElementsByTagName('img')[3].src='resources/football.png';
+let sport = document.createElement('p')
+sport.innerText = 'Look Messi better'
+document.getElementsByClassName('col-md-4')[2].appendChild(sport)
+sport.style.backgroundColor= 'transparent'
 
 // character
 document.getElementsByTagName('h5')[3].innerText = 'Stewie';
 document.getElementsByTagName('img')[4].src='resources/stewie.gif';
+let character = document.createElement('p')
+/*character.innerText = 'no inspiration'
+document.getElementsByClassName('col-md-4')[3].appendChild(character)
+character.style.backgroundColor= 'transparent'*/
 
 // challenge
 let video = document.createElement('iframe');
@@ -77,6 +102,7 @@ function reset (){
     button.style.borderRadius = '45px'
     button.style.right = '30px'
     button.style.top = '40px'
+    button.style.backgroundColor = 'darkred'
     button.addEventListener('click', ()=>{
         if (old === false){
             document.body.innerHTML= newPage
