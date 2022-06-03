@@ -1,7 +1,7 @@
 //body
 let color = document.getElementsByTagName('*');
 for (let i=0, max = color.length; i<max; i++){
-    document.getElementsByTagName('*')[i].style.backgroundColor = 'blue';
+    document.getElementsByTagName('*')[i].style.backgroundColor = 'darkblue';
 }
 console.log(color);
 
@@ -41,3 +41,11 @@ document.getElementsByTagName('h5')[3].innerText = 'Stewie';
 document.getElementsByTagName('img')[4].src='resources/stewie.gif';
 
 // challenge
+let video = document.createElement('iframe');
+let challenge  = document.getElementsByClassName('challangebox')[0]
+
+video.src = 'https://player.vimeo.com/video/148751763';
+video.title = 'jebaited';
+video.style.width = '100%';
+video.style.height = '100%';
+challenge.appendChild(video)
