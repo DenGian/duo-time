@@ -46,8 +46,28 @@ document.body.style.backgroundColor = "Black";
 
 //changed all the text color
 document.body.style.color = "white";
+document.body.style.fontSize = "2vw";
 
 //challenge
-document.getElementsByClassName(`challengeBox`)[0].addEventListener("keydown", () => {
-
+let keypresses = [];
+document.addEventListener("keydown", e => {
+    console.log(keypresses)
+    keypresses.push(e.key);
+    document.getElementsByClassName(`challengeBoxSolution`)[0].innerHTML = keypresses;
 })
+
+const btn = document.createElement(`button`);
+document.body.appendChild(btn);
+btn.innerHTML = "Reset";
+btn.type = "reset";
+btn.name = "resetBtn"
+btn.style.width = "8vw";
+btn.style.height = "6vh";
+btn.style.fontSize = "2vw";
+btn.style.backgroundColor = "red";
+btn.style.color = "white";
+
+btn.onclick = function () {
+    document.getElementsByClassName(`challengeBoxSolution`)[0].innerHTML = "";
+    keypresses = [];
+}
